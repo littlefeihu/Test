@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsTest", "WindowsFormsTest\WindowsFormsTest.csproj", "{844FBC24-58C5-42E2-A373-D78DC8C9E955}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerHost", "ServerHost\ServerHost.csproj", "{E93F7524-4CA2-474D-B63D-BD488A0EB147}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF", "WCF", "{EBF0FD7F-24BB-4AE6-ABE2-8E85F649F5F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{01BFFC3B-5E04-4846-9891-5B4D4512AC69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{1C45CDAF-DAB1-4A86-8DBB-F3B246AE17CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +29,25 @@ Global
 		{844FBC24-58C5-42E2-A373-D78DC8C9E955}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{844FBC24-58C5-42E2-A373-D78DC8C9E955}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{844FBC24-58C5-42E2-A373-D78DC8C9E955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E93F7524-4CA2-474D-B63D-BD488A0EB147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E93F7524-4CA2-474D-B63D-BD488A0EB147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E93F7524-4CA2-474D-B63D-BD488A0EB147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E93F7524-4CA2-474D-B63D-BD488A0EB147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01BFFC3B-5E04-4846-9891-5B4D4512AC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BFFC3B-5E04-4846-9891-5B4D4512AC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BFFC3B-5E04-4846-9891-5B4D4512AC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BFFC3B-5E04-4846-9891-5B4D4512AC69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C45CDAF-DAB1-4A86-8DBB-F3B246AE17CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C45CDAF-DAB1-4A86-8DBB-F3B246AE17CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C45CDAF-DAB1-4A86-8DBB-F3B246AE17CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C45CDAF-DAB1-4A86-8DBB-F3B246AE17CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E93F7524-4CA2-474D-B63D-BD488A0EB147} = {EBF0FD7F-24BB-4AE6-ABE2-8E85F649F5F6}
+		{01BFFC3B-5E04-4846-9891-5B4D4512AC69} = {EBF0FD7F-24BB-4AE6-ABE2-8E85F649F5F6}
+		{1C45CDAF-DAB1-4A86-8DBB-F3B246AE17CC} = {EBF0FD7F-24BB-4AE6-ABE2-8E85F649F5F6}
 	EndGlobalSection
 EndGlobal

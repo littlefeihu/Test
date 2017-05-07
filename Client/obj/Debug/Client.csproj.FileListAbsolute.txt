@@ -1,0 +1,6 @@
+D:\work\TestSample\Client\bin\Debug\Client.exe.config
+D:\work\TestSample\Client\bin\Debug\Client.exe
+D:\work\TestSample\Client\bin\Debug\Client.pdb
+D:\work\TestSample\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\work\TestSample\Client\obj\Debug\Client.exe
+D:\work\TestSample\Client\obj\Debug\Client.pdb
