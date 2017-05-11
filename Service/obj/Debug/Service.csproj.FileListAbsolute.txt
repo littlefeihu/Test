@@ -3,3 +3,5 @@ D:\work\TestSample\Service\bin\Debug\Service.pdb
 D:\work\TestSample\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
 D:\work\TestSample\Service\obj\Debug\Service.dll
 D:\work\TestSample\Service\obj\Debug\Service.pdb
+D:\work\TestSample\Service\bin\Debug\Common.dll
+D:\work\TestSample\Service\bin\Debug\Common.pdb

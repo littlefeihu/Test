@@ -14,6 +14,9 @@ namespace Client
             {
                 Console.WriteLine(client.Ping());
             }
+            PingCmd cmd = new PingCmd();
+            var result = cmd.Execute();
+            Console.WriteLine(result.ToString());
             Console.ReadKey();
         }
     }

@@ -8,53 +8,84 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Client.ServiceReference1 {
-    
-    
+using Common;
+using System.ServiceModel;
+
+namespace Client.ServiceReference1
+{
+
+    [ServiceKnownType("GetKnownTypes", typeof(KnownTypeHelper))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IDQService")]
-    public interface IDQService {
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDQService/Ping", ReplyAction="http://tempuri.org/IDQService/PingResponse")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName = "ServiceReference1.IDQService")]
+    public interface IDQService
+    {
+
+        [System.ServiceModel.OperationContractAttribute(Action = "http://tempuri.org/IDQService/Ping", ReplyAction = "http://tempuri.org/IDQService/PingResponse")]
         bool Ping();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDQService/Ping", ReplyAction="http://tempuri.org/IDQService/PingResponse")]
+
+        [System.ServiceModel.OperationContractAttribute(Action = "http://tempuri.org/IDQService/Ping", ReplyAction = "http://tempuri.org/IDQService/PingResponse")]
         System.Threading.Tasks.Task<bool> PingAsync();
+
+        [System.ServiceModel.OperationContractAttribute(Action = "http://tempuri.org/IDQService/Excute", ReplyAction = "http://tempuri.org/IDQService/ExcuteResponse")]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Common.Command))]
+        object Excute(Common.Command cmd);
+
+        [System.ServiceModel.OperationContractAttribute(Action = "http://tempuri.org/IDQService/Excute", ReplyAction = "http://tempuri.org/IDQService/ExcuteResponse")]
+        System.Threading.Tasks.Task<object> ExcuteAsync(Common.Command cmd);
     }
-    
+
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IDQServiceChannel : Client.ServiceReference1.IDQService, System.ServiceModel.IClientChannel {
+    public interface IDQServiceChannel : Client.ServiceReference1.IDQService, System.ServiceModel.IClientChannel
+    {
     }
-    
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class DQServiceClient : System.ServiceModel.ClientBase<Client.ServiceReference1.IDQService>, Client.ServiceReference1.IDQService {
-        
-        public DQServiceClient() {
+    public partial class DQServiceClient : System.ServiceModel.ClientBase<Client.ServiceReference1.IDQService>, Client.ServiceReference1.IDQService
+    {
+
+        public DQServiceClient()
+        {
         }
-        
-        public DQServiceClient(string endpointConfigurationName) : 
-                base(endpointConfigurationName) {
+
+        public DQServiceClient(string endpointConfigurationName) :
+                base(endpointConfigurationName)
+        {
         }
-        
-        public DQServiceClient(string endpointConfigurationName, string remoteAddress) : 
-                base(endpointConfigurationName, remoteAddress) {
+
+        public DQServiceClient(string endpointConfigurationName, string remoteAddress) :
+                base(endpointConfigurationName, remoteAddress)
+        {
         }
-        
-        public DQServiceClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(endpointConfigurationName, remoteAddress) {
+
+        public DQServiceClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) :
+                base(endpointConfigurationName, remoteAddress)
+        {
         }
-        
-        public DQServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(binding, remoteAddress) {
+
+        public DQServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) :
+                base(binding, remoteAddress)
+        {
         }
-        
-        public bool Ping() {
+
+        public bool Ping()
+        {
             return base.Channel.Ping();
         }
-        
-        public System.Threading.Tasks.Task<bool> PingAsync() {
+
+        public System.Threading.Tasks.Task<bool> PingAsync()
+        {
             return base.Channel.PingAsync();
+        }
+
+        public object Excute(Common.Command cmd)
+        {
+            return base.Channel.Excute(cmd);
+        }
+
+        public System.Threading.Tasks.Task<object> ExcuteAsync(Common.Command cmd)
+        {
+            return base.Channel.ExcuteAsync(cmd);
         }
     }
 }

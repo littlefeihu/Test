@@ -22,6 +22,7 @@
     <MetadataSource Address="http://127.0.0.1:5417/ServiceMetadata" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
+    <MetadataFile FileName="ServiceMetadata2.xsd" MetadataType="Schema" ID="a67d7584-59af-4f99-a7d7-5d915e16118d" SourceId="1" SourceUrl="http://127.0.0.1:5417/ServiceMetadata?xsd=xsd2" />
     <MetadataFile FileName="DQService.wsdl" MetadataType="Wsdl" ID="d940829b-745c-4df6-b322-9c073fc6d76b" SourceId="1" SourceUrl="http://127.0.0.1:5417/ServiceMetadata" />
     <MetadataFile FileName="ServiceMetadata.xsd" MetadataType="Schema" ID="d638164c-9757-4c31-96c0-989fca9dfcff" SourceId="1" SourceUrl="http://127.0.0.1:5417/ServiceMetadata?xsd=xsd0" />
     <MetadataFile FileName="ServiceMetadata1.xsd" MetadataType="Schema" ID="bdaa462e-9d9b-44a9-a33e-37427df56b47" SourceId="1" SourceUrl="http://127.0.0.1:5417/ServiceMetadata?xsd=xsd1" />

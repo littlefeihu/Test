@@ -49,8 +49,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="PingCmd.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -59,6 +61,9 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Connected Services\ServiceReference1\ServiceMetadata1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReference1\ServiceMetadata2.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -79,6 +84,12 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{a5091c3d-be07-48a2-ac60-c69354d0ce16}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

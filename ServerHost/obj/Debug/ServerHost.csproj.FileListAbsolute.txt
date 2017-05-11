@@ -6,3 +6,5 @@ D:\work\TestSample\ServerHost\bin\Debug\Service.pdb
 D:\work\TestSample\ServerHost\obj\Debug\ServerHost.csprojResolveAssemblyReference.cache
 D:\work\TestSample\ServerHost\obj\Debug\ServerHost.exe
 D:\work\TestSample\ServerHost\obj\Debug\ServerHost.pdb
+D:\work\TestSample\ServerHost\bin\Debug\Common.dll
+D:\work\TestSample\ServerHost\bin\Debug\Common.pdb
