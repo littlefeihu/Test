@@ -1,0 +1,7 @@
+D:\work\TestSample\ServiceContract\bin\Debug\ServiceContract.dll
+D:\work\TestSample\ServiceContract\bin\Debug\ServiceContract.pdb
+D:\work\TestSample\ServiceContract\bin\Debug\Common.dll
+D:\work\TestSample\ServiceContract\bin\Debug\Common.pdb
+D:\work\TestSample\ServiceContract\obj\Debug\ServiceContract.csprojResolveAssemblyReference.cache
+D:\work\TestSample\ServiceContract\obj\Debug\ServiceContract.dll
+D:\work\TestSample\ServiceContract\obj\Debug\ServiceContract.pdb

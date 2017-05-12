@@ -51,6 +51,10 @@
       <Project>{a5091c3d-be07-48a2-ac60-c69354d0ce16}</Project>
       <Name>Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ServiceContract\ServiceContract.csproj">
+      <Project>{cb0c7edf-b99a-4f53-b8f3-0968bc5241c3}</Project>
+      <Name>ServiceContract</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

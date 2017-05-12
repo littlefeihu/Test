@@ -7,11 +7,3 @@ D:\work\Test\WindowsFormsTest\obj\Debug\WindowsFormsTest.Properties.Resources.re
 D:\work\Test\WindowsFormsTest\obj\Debug\WindowsFormsTest.csproj.GenerateResource.Cache
 D:\work\Test\WindowsFormsTest\obj\Debug\WindowsFormsTest.exe
 D:\work\Test\WindowsFormsTest\obj\Debug\WindowsFormsTest.pdb
-D:\work\TestSample\WindowsFormsTest\bin\Debug\WindowsFormsTest.exe.config
-D:\work\TestSample\WindowsFormsTest\bin\Debug\WindowsFormsTest.exe
-D:\work\TestSample\WindowsFormsTest\bin\Debug\WindowsFormsTest.pdb
-D:\work\TestSample\WindowsFormsTest\obj\Debug\WindowsFormsTest.Form1.resources
-D:\work\TestSample\WindowsFormsTest\obj\Debug\WindowsFormsTest.Properties.Resources.resources
-D:\work\TestSample\WindowsFormsTest\obj\Debug\WindowsFormsTest.csproj.GenerateResource.Cache
-D:\work\TestSample\WindowsFormsTest\obj\Debug\WindowsFormsTest.exe
-D:\work\TestSample\WindowsFormsTest\obj\Debug\WindowsFormsTest.pdb

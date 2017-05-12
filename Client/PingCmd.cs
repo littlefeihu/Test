@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Client
 {
     [DataContract]
-    public class PingCmd : Service.ServerCommand
+    public class PingCmd : ServerCommand
     {
         [DataMember]
 

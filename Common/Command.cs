@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Common
 {
-    [DataContract(Namespace = "http://www.wantong-tech.net/2011/prisonecs")]
+    [DataContract]
     public abstract class Command
     {
         /// <summary>
