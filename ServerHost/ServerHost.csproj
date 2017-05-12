@@ -52,6 +52,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ServiceContract\ServiceContract.csproj">
+      <Project>{cb0c7edf-b99a-4f53-b8f3-0968bc5241c3}</Project>
+      <Name>ServiceContract</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Service\Service.csproj">
       <Project>{1c45cdaf-dab1-4a86-8dbb-f3b246ae17cc}</Project>
       <Name>Service</Name>

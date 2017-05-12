@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Client
 {
-    [DataContract]
+    [DataContract(Namespace = "http://www.dqinfo.net/2017/dqinfo")]
     public class ServerCommand : Command
     {
 

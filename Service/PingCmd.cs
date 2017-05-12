@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Service
 {
-    [DataContract]
+    [DataContract(Namespace = "http://www.dqinfo.net/2017/dqinfo")]
     public class PingCmd : Command
     {
         [DataMember]
