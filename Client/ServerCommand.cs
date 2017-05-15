@@ -13,7 +13,7 @@ namespace Client
     public class ServerCommand : Command
     {
 
-        public override object Execute()
+        public override dynamic Execute()
         {
             return new ServiceProxy().Excute(this);
         }

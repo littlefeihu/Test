@@ -10,10 +10,17 @@ namespace Client
     {
         static void Main(string[] args)
         {
-         
+
             PingCmd cmd = new PingCmd();
             var result = cmd.Execute();
+
+            foreach (var item in result)
+            {
+                Console.WriteLine(item.Name);
+            }
+            Console.WriteLine(result.Name);
             Console.WriteLine(result.ToString());
+
             Console.ReadKey();
         }
     }
