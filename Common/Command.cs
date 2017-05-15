@@ -15,7 +15,7 @@ namespace Common
         /// </summary>
         /// <param name="provider">服务提供者。</param>
         /// <returns>执行结果。</returns>
-        public abstract object Execute();
+        public abstract dynamic Execute();
 
     }
 }

@@ -14,9 +14,15 @@ namespace Service
         [DataMember]
 
         public string IP { get; set; }
-        public override object Execute()
+        public override dynamic Execute()
         {
-            return "1";
+            //return new Item {  Name="a" };
+            //return "1";
+            //return new Book { Items = new List<Item> { new Item { Name = "s" } } };
+            //return new Bookshelf {  Books= new List<Book> { new Book { Items = new List<Item> { new Item { Name = "s" } } } } };
+            //return new Item[] { new Item { Name="d" } };
+
+            return new List<Book> { new Book { Items = new List<Item> { new Item { Name = "s" } } } };
         }
     }
 }

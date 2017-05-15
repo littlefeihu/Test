@@ -16,6 +16,6 @@ namespace ServiceContract
         bool Ping();
 
         [OperationContract]
-        object Excute(Command cmd);
+        dynamic Excute(Command cmd);
     }
 }

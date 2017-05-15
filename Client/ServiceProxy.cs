@@ -18,7 +18,7 @@ namespace Client
             _channelFactory = new ChannelFactory<IDQService>("DQService");
         }
 
-        public object Excute(Command cmd)
+        public dynamic Excute(Command cmd)
         {
             var server = _channelFactory.CreateChannel();
 

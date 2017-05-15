@@ -11,7 +11,7 @@ namespace Service
 {
     public class DQService : IDQService
     {
-        public object Excute(Command cmd)
+        public dynamic Excute(Command cmd)
         {
             return cmd.Execute();
         }
