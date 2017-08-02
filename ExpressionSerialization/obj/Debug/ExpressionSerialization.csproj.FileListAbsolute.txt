@@ -1,0 +1,16 @@
+D:\Temp\expressiontree-9804\ExpressionSerialization\bin\Debug\ExpressionSerialization.dll
+D:\Temp\expressiontree-9804\ExpressionSerialization\bin\Debug\ExpressionSerialization.pdb
+D:\Temp\expressiontree-9804\ExpressionSerialization\obj\Debug\ResolveAssemblyReference.cache
+D:\Temp\expressiontree-9804\ExpressionSerialization\obj\Debug\ExpressionSerialization.dll
+D:\Temp\expressiontree-9804\ExpressionSerialization\obj\Debug\ExpressionSerialization.pdb
+D:\我的文档\Visual Studio 2010\Projects\LambadaSerializeDemo\ExpressionSerialization\bin\Debug\ExpressionSerialization.dll
+D:\我的文档\Visual Studio 2010\Projects\LambadaSerializeDemo\ExpressionSerialization\bin\Debug\ExpressionSerialization.pdb
+D:\我的文档\Visual Studio 2010\Projects\LambadaSerializeDemo\ExpressionSerialization\obj\Debug\ResolveAssemblyReference.cache
+D:\我的文档\Visual Studio 2010\Projects\LambadaSerializeDemo\ExpressionSerialization\obj\Debug\ExpressionSerialization.dll
+D:\我的文档\Visual Studio 2010\Projects\LambadaSerializeDemo\ExpressionSerialization\obj\Debug\ExpressionSerialization.pdb
+E:\Test\ExpressionSerialization\bin\Debug\ExpressionSerialization.dll
+E:\Test\ExpressionSerialization\bin\Debug\ExpressionSerialization.pdb
+E:\Test\ExpressionSerialization\obj\Debug\ExpressionSerialization.csprojResolveAssemblyReference.cache
+E:\Test\ExpressionSerialization\obj\Debug\ExpressionSerialization.dll
+E:\Test\ExpressionSerialization\obj\Debug\ExpressionSerialization.pdb
+E:\Test\ExpressionSerialization\bin\Debug\Dynamic.dll

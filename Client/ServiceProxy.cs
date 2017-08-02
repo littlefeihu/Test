@@ -11,9 +11,12 @@ namespace Client
 {
     public class ServiceProxy
     {
-        private ChannelFactory<IDQService> _channelFactory;
 
-        public ServiceProxy()
+        public static readonly ServiceProxy Instance = new ServiceProxy();
+
+        private static readonly ChannelFactory<IDQService> _channelFactory;
+
+        static ServiceProxy()
         {
             _channelFactory = new ChannelFactory<IDQService>("DQService");
         }
@@ -21,8 +24,14 @@ namespace Client
         public dynamic Excute(Command cmd)
         {
             var server = _channelFactory.CreateChannel();
-
             return server.Excute(cmd);
+        }
+        public IDQService Channel
+        {
+            get
+            {
+                return _channelFactory.CreateChannel();
+            }
         }
 
     }

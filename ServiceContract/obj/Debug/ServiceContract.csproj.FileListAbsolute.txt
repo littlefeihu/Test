@@ -5,3 +5,13 @@ D:\work\TestSample\ServiceContract\bin\Debug\Common.pdb
 D:\work\TestSample\ServiceContract\obj\Debug\ServiceContract.csprojResolveAssemblyReference.cache
 D:\work\TestSample\ServiceContract\obj\Debug\ServiceContract.dll
 D:\work\TestSample\ServiceContract\obj\Debug\ServiceContract.pdb
+E:\Test\ServiceContract\bin\Debug\ServiceContract.dll
+E:\Test\ServiceContract\bin\Debug\ServiceContract.pdb
+E:\Test\ServiceContract\bin\Debug\Common.dll
+E:\Test\ServiceContract\bin\Debug\EntityFramework.dll
+E:\Test\ServiceContract\bin\Debug\Common.pdb
+E:\Test\ServiceContract\bin\Debug\Common.dll.config
+E:\Test\ServiceContract\bin\Debug\EntityFramework.xml
+E:\Test\ServiceContract\obj\Debug\ServiceContract.csprojResolveAssemblyReference.cache
+E:\Test\ServiceContract\obj\Debug\ServiceContract.dll
+E:\Test\ServiceContract\obj\Debug\ServiceContract.pdb
