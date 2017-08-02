@@ -1,0 +1,5 @@
+E:\Test\ExpressionTest.PropertyEqual\bin\Debug\ExpressionTest.PropertyEqual.exe.config
+E:\Test\ExpressionTest.PropertyEqual\bin\Debug\ExpressionTest.PropertyEqual.exe
+E:\Test\ExpressionTest.PropertyEqual\bin\Debug\ExpressionTest.PropertyEqual.pdb
+E:\Test\ExpressionTest.PropertyEqual\obj\Debug\ExpressionTest.PropertyEqual.exe
+E:\Test\ExpressionTest.PropertyEqual\obj\Debug\ExpressionTest.PropertyEqual.pdb
