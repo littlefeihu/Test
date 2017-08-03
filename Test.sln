@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionTest.ShallowClone
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionTest.PropertyEqual", "ExpressionTest.PropertyEqual\ExpressionTest.PropertyEqual.csproj", "{E2B736FE-6FCD-4ABE-9669-678AF5873356}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqliteTest", "SqliteTest", "{F0305DD4-4D04-4314-A526-8BDCB2B35F27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSqliteDBByPwd", "OpenSqliteDBByPwd\OpenSqliteDBByPwd.csproj", "{80FA34A0-1117-450B-8C72-7C5DC3659D41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +77,10 @@ Global
 		{E2B736FE-6FCD-4ABE-9669-678AF5873356}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2B736FE-6FCD-4ABE-9669-678AF5873356}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2B736FE-6FCD-4ABE-9669-678AF5873356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80FA34A0-1117-450B-8C72-7C5DC3659D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FA34A0-1117-450B-8C72-7C5DC3659D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FA34A0-1117-450B-8C72-7C5DC3659D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FA34A0-1117-450B-8C72-7C5DC3659D41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,5 +94,6 @@ Global
 		{01ABE4DB-4ABE-4B0E-878B-B42A8C9B6560} = {EBF0FD7F-24BB-4AE6-ABE2-8E85F649F5F6}
 		{C0B8A6FA-60C7-4408-BFF6-E8660DDD1B29} = {C2DF4500-9615-4175-A977-26765942B72A}
 		{E2B736FE-6FCD-4ABE-9669-678AF5873356} = {C2DF4500-9615-4175-A977-26765942B72A}
+		{80FA34A0-1117-450B-8C72-7C5DC3659D41} = {F0305DD4-4D04-4314-A526-8BDCB2B35F27}
 	EndGlobalSection
 EndGlobal
