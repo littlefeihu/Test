@@ -8,9 +8,3 @@ D:\我的文档\Visual Studio 2010\Projects\LambadaSerializeDemo\ExpressionSeria
 D:\我的文档\Visual Studio 2010\Projects\LambadaSerializeDemo\ExpressionSerialization\obj\Debug\ResolveAssemblyReference.cache
 D:\我的文档\Visual Studio 2010\Projects\LambadaSerializeDemo\ExpressionSerialization\obj\Debug\ExpressionSerialization.dll
 D:\我的文档\Visual Studio 2010\Projects\LambadaSerializeDemo\ExpressionSerialization\obj\Debug\ExpressionSerialization.pdb
-E:\Test\ExpressionSerialization\bin\Debug\ExpressionSerialization.dll
-E:\Test\ExpressionSerialization\bin\Debug\ExpressionSerialization.pdb
-E:\Test\ExpressionSerialization\obj\Debug\ExpressionSerialization.csprojResolveAssemblyReference.cache
-E:\Test\ExpressionSerialization\obj\Debug\ExpressionSerialization.dll
-E:\Test\ExpressionSerialization\obj\Debug\ExpressionSerialization.pdb
-E:\Test\ExpressionSerialization\bin\Debug\Dynamic.dll
