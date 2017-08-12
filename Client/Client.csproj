@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CRUDCmd.cs" />
     <Compile Include="PingCmd.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -60,6 +61,10 @@
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{a5091c3d-be07-48a2-ac60-c69354d0ce16}</Project>
       <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExpressionSerialization\ExpressionSerialization.csproj">
+      <Project>{01abe4db-4abe-4b0e-878b-b42a8c9b6560}</Project>
+      <Name>ExpressionSerialization</Name>
     </ProjectReference>
     <ProjectReference Include="..\ServiceContract\ServiceContract.csproj">
       <Project>{cb0c7edf-b99a-4f53-b8f3-0968bc5241c3}</Project>

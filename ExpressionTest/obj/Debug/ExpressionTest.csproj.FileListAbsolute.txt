@@ -1,0 +1,6 @@
+E:\Test\ExpressionTest\bin\Debug\ExpressionTest.exe.config
+E:\Test\ExpressionTest\bin\Debug\ExpressionTest.exe
+E:\Test\ExpressionTest\bin\Debug\ExpressionTest.pdb
+E:\Test\ExpressionTest\obj\Debug\ExpressionTest.csprojResolveAssemblyReference.cache
+E:\Test\ExpressionTest\obj\Debug\ExpressionTest.exe
+E:\Test\ExpressionTest\obj\Debug\ExpressionTest.pdb
