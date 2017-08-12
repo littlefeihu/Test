@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{9739733F-1D87-4C66-B5E0-7B16C248AECF}"
 EndProject
@@ -18,6 +18,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{A5091C3D-BE07-48A2-AC60-C69354D0CE16}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceContract", "ServiceContract\ServiceContract.csproj", "{CB0C7EDF-B99A-4F53-B8F3-0968BC5241C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MiniProfile.MVC", "MiniProfile.MVC", "{BE6C8819-E03E-4A8A-A7AB-D25FB3969C12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miniprofilemvc", "Miniprofilemvc\Miniprofilemvc.csproj", "{5B583339-21B4-4D03-BD50-919DF4C29C6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +57,10 @@ Global
 		{CB0C7EDF-B99A-4F53-B8F3-0968BC5241C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB0C7EDF-B99A-4F53-B8F3-0968BC5241C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB0C7EDF-B99A-4F53-B8F3-0968BC5241C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B583339-21B4-4D03-BD50-919DF4C29C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B583339-21B4-4D03-BD50-919DF4C29C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B583339-21B4-4D03-BD50-919DF4C29C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B583339-21B4-4D03-BD50-919DF4C29C6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,5 +71,6 @@ Global
 		{1C45CDAF-DAB1-4A86-8DBB-F3B246AE17CC} = {EBF0FD7F-24BB-4AE6-ABE2-8E85F649F5F6}
 		{A5091C3D-BE07-48A2-AC60-C69354D0CE16} = {EBF0FD7F-24BB-4AE6-ABE2-8E85F649F5F6}
 		{CB0C7EDF-B99A-4F53-B8F3-0968BC5241C3} = {EBF0FD7F-24BB-4AE6-ABE2-8E85F649F5F6}
+		{5B583339-21B4-4D03-BD50-919DF4C29C6F} = {BE6C8819-E03E-4A8A-A7AB-D25FB3969C12}
 	EndGlobalSection
 EndGlobal
