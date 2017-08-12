@@ -15,3 +15,4 @@ D:\work\TestSample\WindowsFormsTest\obj\Debug\WindowsFormsTest.Properties.Resour
 D:\work\TestSample\WindowsFormsTest\obj\Debug\WindowsFormsTest.csproj.GenerateResource.Cache
 D:\work\TestSample\WindowsFormsTest\obj\Debug\WindowsFormsTest.exe
 D:\work\TestSample\WindowsFormsTest\obj\Debug\WindowsFormsTest.pdb
+D:\work\TestSample\WindowsFormsTest\obj\Debug\WindowsFormsTest.csprojResolveAssemblyReference.cache

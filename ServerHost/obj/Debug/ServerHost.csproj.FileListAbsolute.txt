@@ -10,3 +10,12 @@ D:\work\TestSample\ServerHost\bin\Debug\Common.pdb
 D:\work\TestSample\ServerHost\obj\Debug\ServerHost.csprojResolveAssemblyReference.cache
 D:\work\TestSample\ServerHost\obj\Debug\ServerHost.exe
 D:\work\TestSample\ServerHost\obj\Debug\ServerHost.pdb
+D:\work\TestSample\ServerHost\bin\Debug\EntityFramework.dll
+D:\work\TestSample\ServerHost\bin\Debug\EntityFramework.SqlServer.dll
+D:\work\TestSample\ServerHost\bin\Debug\ExpressionSerialization.dll
+D:\work\TestSample\ServerHost\bin\Debug\Dynamic.dll
+D:\work\TestSample\ServerHost\bin\Debug\Service.dll.config
+D:\work\TestSample\ServerHost\bin\Debug\EntityFramework.xml
+D:\work\TestSample\ServerHost\bin\Debug\EntityFramework.SqlServer.xml
+D:\work\TestSample\ServerHost\bin\Debug\Common.dll.config
+D:\work\TestSample\ServerHost\bin\Debug\ExpressionSerialization.pdb
