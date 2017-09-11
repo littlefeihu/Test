@@ -7,3 +7,12 @@ D:\work\TestSample\Service\bin\Debug\ServiceContract.pdb
 D:\work\TestSample\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
 D:\work\TestSample\Service\obj\Debug\Service.dll
 D:\work\TestSample\Service\obj\Debug\Service.pdb
+D:\work\TestSample\Service\bin\Debug\Service.dll.config
+D:\work\TestSample\Service\bin\Debug\EntityFramework.dll
+D:\work\TestSample\Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\work\TestSample\Service\bin\Debug\ExpressionSerialization.dll
+D:\work\TestSample\Service\bin\Debug\Dynamic.dll
+D:\work\TestSample\Service\bin\Debug\Common.dll.config
+D:\work\TestSample\Service\bin\Debug\ExpressionSerialization.pdb
+D:\work\TestSample\Service\bin\Debug\EntityFramework.xml
+D:\work\TestSample\Service\bin\Debug\EntityFramework.SqlServer.xml

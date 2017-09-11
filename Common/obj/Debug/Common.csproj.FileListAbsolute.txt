@@ -3,3 +3,8 @@ D:\work\TestSample\Common\bin\Debug\Common.pdb
 D:\work\TestSample\Common\obj\Debug\Common.dll
 D:\work\TestSample\Common\obj\Debug\Common.pdb
 D:\work\TestSample\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\work\TestSample\Common\bin\Debug\Common.dll.config
+D:\work\TestSample\Common\bin\Debug\EntityFramework.dll
+D:\work\TestSample\Common\bin\Debug\EntityFramework.SqlServer.dll
+D:\work\TestSample\Common\bin\Debug\EntityFramework.xml
+D:\work\TestSample\Common\bin\Debug\EntityFramework.SqlServer.xml

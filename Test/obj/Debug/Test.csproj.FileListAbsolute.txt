@@ -9,3 +9,4 @@ D:\work\TestSample\Test\bin\Debug\Test.exe
 D:\work\TestSample\Test\bin\Debug\Test.pdb
 D:\work\TestSample\Test\obj\Debug\Test.exe
 D:\work\TestSample\Test\obj\Debug\Test.pdb
+D:\work\TestSample\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
