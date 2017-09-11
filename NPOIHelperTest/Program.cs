@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -17,7 +18,11 @@ namespace NPOIHelperTest
 
             NPOIHelper.DataTableToExcel(dt, "dddd", filePath + "aa.xls");
 
-
+            foreach (DataColumn item in dt.Columns)
+            {
+                Console.WriteLine(item.ColumnName);
+            }
+            Console.ReadKey();
             Console.WriteLine(filePath);
         }
     }
