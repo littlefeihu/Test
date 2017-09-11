@@ -1,0 +1,13 @@
+E:\Test\NPOIHelperTest\bin\Debug\NPOIHelperTest.exe.config
+E:\Test\NPOIHelperTest\bin\Debug\NPOIHelperTest.exe
+E:\Test\NPOIHelperTest\bin\Debug\NPOIHelperTest.pdb
+E:\Test\NPOIHelperTest\obj\Debug\NPOIHelperTest.csprojResolveAssemblyReference.cache
+E:\Test\NPOIHelperTest\obj\Debug\NPOIHelperTest.exe
+E:\Test\NPOIHelperTest\obj\Debug\NPOIHelperTest.pdb
+E:\Test\NPOIHelperTest\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Test\NPOIHelperTest\bin\Debug\NPOI.dll
+E:\Test\NPOIHelperTest\bin\Debug\NPOI.OOXML.dll
+E:\Test\NPOIHelperTest\bin\Debug\NPOI.OpenXml4Net.dll
+E:\Test\NPOIHelperTest\bin\Debug\NPOI.OpenXmlFormats.dll
+E:\Test\NPOIHelperTest\bin\Debug\NPOI.xml
+E:\Test\NPOIHelperTest\bin\Debug\表头.xls
