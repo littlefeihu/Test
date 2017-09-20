@@ -65,10 +65,10 @@ namespace NPOIHelperTest
             HSSFDataFormat format = (HSSFDataFormat)workbook.CreateDataFormat();
             dateStyle.DataFormat = format.GetFormat("yyyy-mm-dd");
             //边框
-            //dateStyle.BorderBottom = BorderStyle.Thin;
-            //dateStyle.BorderLeft = BorderStyle.Thin;
-            //dateStyle.BorderRight = BorderStyle.Thin;
-            //dateStyle.BorderTop = BorderStyle.Thin;
+            dateStyle.BorderBottom = BorderStyle.Thin;
+            dateStyle.BorderLeft = BorderStyle.Thin;
+            dateStyle.BorderRight = BorderStyle.Thin;
+            dateStyle.BorderTop = BorderStyle.Thin;
 
             //取得列宽
             int[] arrColWidth = new int[dtSource.Columns.Count];
@@ -100,19 +100,19 @@ namespace NPOIHelperTest
 
                     #region 表头及样式
                     {
-                        //HSSFRow headerRow = (HSSFRow)sheet.CreateRow(0);
-                        //headerRow.HeightInPoints = 25;
-                        //headerRow.CreateCell(0).SetCellValue(strHeaderText);
+                        HSSFRow headerRow = (HSSFRow)sheet.CreateRow(0);
+                        headerRow.HeightInPoints = 25;
+                        headerRow.CreateCell(0).SetCellValue(strHeaderText);
 
-                        //HSSFCellStyle headStyle = (HSSFCellStyle)workbook.CreateCellStyle();
-                        //headStyle.Alignment = HorizontalAlignment.Center;
+                        HSSFCellStyle headStyle = (HSSFCellStyle)workbook.CreateCellStyle();
+                        headStyle.Alignment = HorizontalAlignment.Center;
 
 
-                        //HSSFFont font = (HSSFFont)workbook.CreateFont();
-                        //font.FontHeightInPoints = 20;
-                        //font.Boldweight = 700;
-                        //headStyle.SetFont(font);
-                        //headerRow.GetCell(0).CellStyle = headStyle;
+                        HSSFFont font = (HSSFFont)workbook.CreateFont();
+                        font.FontHeightInPoints = 20;
+                        font.Boldweight = 700;
+                        headStyle.SetFont(font);
+                        headerRow.GetCell(0).CellStyle = headStyle;
                         //sheet.AddMergedRegion(new Region(0, 0, 0, dtSource.Columns.Count - 1));
 
                     }
@@ -276,7 +276,7 @@ namespace NPOIHelperTest
         /// <returns></returns>
         public static DataTable ImportTest(string strFileName)
         {
-            var pstr = "|均匀上|均匀上|均匀上|均匀上|均匀中|均匀中|均匀中|均匀中|均匀中|均匀下|均匀下|均匀下|均匀下|风机|风机|风机|风机|风机|出入口|出入口|出入口|出入口|出入口|回风口|探头|探头|环境".Split('|').ToList();
+            var pstr = System.Configuration.ConfigurationManager.AppSettings["pstr"].Split('|').ToList();
 
             DataTable dt = new DataTable();
             HSSFWorkbook hssfworkbook;

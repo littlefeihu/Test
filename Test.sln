@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadMenuTest", "LoadMenuTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPOIHelperTest", "NPOIHelperTest\NPOIHelperTest.csproj", "{C269AABA-8048-4D41-9396-2CD0C8AD5C66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformDrag", "WinformDrag\WinformDrag.csproj", "{39706A1F-D37C-4997-8C74-1EB4B92003AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{C269AABA-8048-4D41-9396-2CD0C8AD5C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C269AABA-8048-4D41-9396-2CD0C8AD5C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C269AABA-8048-4D41-9396-2CD0C8AD5C66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39706A1F-D37C-4997-8C74-1EB4B92003AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39706A1F-D37C-4997-8C74-1EB4B92003AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39706A1F-D37C-4997-8C74-1EB4B92003AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39706A1F-D37C-4997-8C74-1EB4B92003AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

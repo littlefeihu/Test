@@ -1,0 +1,9 @@
+E:\Test\WinformDrag\bin\Debug\WinformDrag.exe.config
+E:\Test\WinformDrag\bin\Debug\WinformDrag.exe
+E:\Test\WinformDrag\bin\Debug\WinformDrag.pdb
+E:\Test\WinformDrag\obj\Debug\WinformDrag.csprojResolveAssemblyReference.cache
+E:\Test\WinformDrag\obj\Debug\WinformDrag.Form1.resources
+E:\Test\WinformDrag\obj\Debug\WinformDrag.Properties.Resources.resources
+E:\Test\WinformDrag\obj\Debug\WinformDrag.csproj.GenerateResource.Cache
+E:\Test\WinformDrag\obj\Debug\WinformDrag.exe
+E:\Test\WinformDrag\obj\Debug\WinformDrag.pdb
