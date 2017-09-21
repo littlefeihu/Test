@@ -1,0 +1,9 @@
+E:\Test\WinformChartTest\bin\Debug\WinformChartTest.exe.config
+E:\Test\WinformChartTest\bin\Debug\WinformChartTest.exe
+E:\Test\WinformChartTest\bin\Debug\WinformChartTest.pdb
+E:\Test\WinformChartTest\obj\Debug\WinformChartTest.csprojResolveAssemblyReference.cache
+E:\Test\WinformChartTest\obj\Debug\WinformChartTest.Form1.resources
+E:\Test\WinformChartTest\obj\Debug\WinformChartTest.Properties.Resources.resources
+E:\Test\WinformChartTest\obj\Debug\WinformChartTest.csproj.GenerateResource.Cache
+E:\Test\WinformChartTest\obj\Debug\WinformChartTest.exe
+E:\Test\WinformChartTest\obj\Debug\WinformChartTest.pdb
