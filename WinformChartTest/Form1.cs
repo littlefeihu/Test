@@ -66,6 +66,17 @@ namespace WinformChartTest
                 var fName = openFileDialog1.FileName;
                 var dt = NPOIHelper.Import(fName);
 
+                if (checkBox1.Checked)
+                {
+                    dt.Columns.Add(new DataColumn { ColumnName = "上限" });
+                    dt.Columns.Add(new DataColumn { ColumnName = "下限" });
+                    foreach (DataRow row in dt.Rows)
+                    {
+                        row["上限"] = txtUpperlimit.Text;
+                        row["下限"] = txtlowerlimit;
+                    }
+                }
+
                 this.chart1.Series.Clear();
 
                 Random random = new Random();
