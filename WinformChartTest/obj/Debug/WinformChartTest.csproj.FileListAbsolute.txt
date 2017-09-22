@@ -7,3 +7,9 @@ E:\Test\WinformChartTest\obj\Debug\WinformChartTest.Properties.Resources.resourc
 E:\Test\WinformChartTest\obj\Debug\WinformChartTest.csproj.GenerateResource.Cache
 E:\Test\WinformChartTest\obj\Debug\WinformChartTest.exe
 E:\Test\WinformChartTest\obj\Debug\WinformChartTest.pdb
+E:\Test\WinformChartTest\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Test\WinformChartTest\bin\Debug\NPOI.dll
+E:\Test\WinformChartTest\bin\Debug\NPOI.OOXML.dll
+E:\Test\WinformChartTest\bin\Debug\NPOI.OpenXml4Net.dll
+E:\Test\WinformChartTest\bin\Debug\NPOI.OpenXmlFormats.dll
+E:\Test\WinformChartTest\bin\Debug\NPOI.xml
