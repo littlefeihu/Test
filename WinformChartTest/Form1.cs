@@ -53,11 +53,14 @@ namespace WinformChartTest
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-            chart1.SaveImage("ddd.png", System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Png);
+            foreach (Chart chart in charts)
+            {
+                chart.SaveImage(Guid.NewGuid().ToString() + ".png", ChartImageFormat.Png);
+            }
         }
 
-        List<string> XData = new List<string>();
+
+        List<Chart> charts = new List<Chart>();
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -76,23 +79,30 @@ namespace WinformChartTest
                         row["下限"] = txtlowerlimit;
                     }
                 }
+                var chartSplits = System.Configuration.ConfigurationManager.AppSettings["chartSplit"].Split('|');
 
-                this.chart1.Series.Clear();
-
-                Random random = new Random();
-
-                int columnIndex = 0;
-                foreach (DataColumn column in dt.Columns)
+                foreach (var chartSplit in chartSplits)
                 {
-                    if (column.ColumnName != "卡片")
+                    var columns = chartSplit.Split(',').ToList();
+                    int columnIndex = 0;
+
+                    if (checkBox1.Checked)
                     {
-                        var seriesName = column.ColumnName;
+                        columns.Add("上限");
+                        columns.Add("下限");
+                    }
+                    System.Windows.Forms.DataVisualization.Charting.Chart chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+                    chart1.AllowDrop = true;
+                    chart1.BackColor = Color.FromArgb(243, 223, 193);
+                    chart1.SizeChanged += Chart1_SizeChanged;
+                    foreach (var column in columns)
+                    {
+                        var seriesName = column;
                         var series = new Series();
                         series.ChartType = SeriesChartType.Line;
                         series.Name = seriesName;
-                        this.chart1.Series.Add(series);
+                        chart1.Series.Add(series);
                         int rowIndex = 0;
-
                         foreach (DataRow row in dt.Rows)
                         {
                             var x = row["卡片"];
@@ -111,10 +121,22 @@ namespace WinformChartTest
                             series.Points.Add(p1);
                             rowIndex += 1;
                         }
+                        columnIndex += 1;
                     }
-                    columnIndex += 1;
+                    charts.Add(chart1);
+                    flowLayoutPanel1.Controls.Add(chart1);
                 }
             }
+        }
+
+        private void Chart1_SizeChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
