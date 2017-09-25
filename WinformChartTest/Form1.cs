@@ -83,6 +83,8 @@ namespace WinformChartTest
 
                 foreach (var chartSplit in chartSplits)
                 {
+                    chart1.Series.Clear();
+
                     var columns = chartSplit.Split(',').ToList();
                     int columnIndex = 0;
 
@@ -91,7 +93,6 @@ namespace WinformChartTest
                         columns.Add("上限");
                         columns.Add("下限");
                     }
-                    System.Windows.Forms.DataVisualization.Charting.Chart chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
                     chart1.AllowDrop = true;
                     chart1.BackColor = Color.FromArgb(243, 223, 193);
                     chart1.SizeChanged += Chart1_SizeChanged;
@@ -123,15 +124,15 @@ namespace WinformChartTest
                         }
                         columnIndex += 1;
                     }
-                    charts.Add(chart1);
-                    flowLayoutPanel1.Controls.Add(chart1);
+                    chart1.SaveImage(chartSplit + ".png", ChartImageFormat.Png);
                 }
+
             }
         }
 
         private void Chart1_SizeChanged(object sender, EventArgs e)
         {
-           
+
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
