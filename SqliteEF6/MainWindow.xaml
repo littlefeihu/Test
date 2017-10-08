@@ -1,0 +1,11 @@
+﻿<Window x:Class="SqliteEF6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="74,49,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox Name="_vtbName" HorizontalAlignment="Left" Height="23" Margin="175,50,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="238"/>
+        <DataGrid Name="_vdgShow" HorizontalAlignment="Left" Margin="11,104,0,0" VerticalAlignment="Top" Height="205" Width="497"/>
+
+    </Grid>
+</Window>
