@@ -1,0 +1,12 @@
+E:\Test\BaiduWangPan\bin\x86\Debug\BaiduWangPan.exe.config
+E:\Test\BaiduWangPan\bin\x86\Debug\BaiduWangPan.exe
+E:\Test\BaiduWangPan\bin\x86\Debug\BaiduWangPan.pdb
+E:\Test\BaiduWangPan\bin\x86\Debug\BceSdkDotNet.dll
+E:\Test\BaiduWangPan\bin\x86\Debug\log4net.dll
+E:\Test\BaiduWangPan\bin\x86\Debug\Newtonsoft.Json.dll
+E:\Test\BaiduWangPan\bin\x86\Debug\BceSdkDotNet.xml
+E:\Test\BaiduWangPan\bin\x86\Debug\log4net.xml
+E:\Test\BaiduWangPan\bin\x86\Debug\Newtonsoft.Json.xml
+E:\Test\BaiduWangPan\obj\x86\Debug\BaiduWangPan.csprojResolveAssemblyReference.cache
+E:\Test\BaiduWangPan\obj\x86\Debug\BaiduWangPan.exe
+E:\Test\BaiduWangPan\obj\x86\Debug\BaiduWangPan.pdb

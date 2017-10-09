@@ -1,0 +1,6 @@
+E:\Test\ExpressionTest.PropertyEqual\bin\x86\Debug\ExpressionTest.PropertyEqual.exe.config
+E:\Test\ExpressionTest.PropertyEqual\bin\x86\Debug\ExpressionTest.PropertyEqual.exe
+E:\Test\ExpressionTest.PropertyEqual\bin\x86\Debug\ExpressionTest.PropertyEqual.pdb
+E:\Test\ExpressionTest.PropertyEqual\obj\x86\Debug\ExpressionTest.PropertyEqual.csprojResolveAssemblyReference.cache
+E:\Test\ExpressionTest.PropertyEqual\obj\x86\Debug\ExpressionTest.PropertyEqual.exe
+E:\Test\ExpressionTest.PropertyEqual\obj\x86\Debug\ExpressionTest.PropertyEqual.pdb

@@ -1,0 +1,16 @@
+E:\Test\OpenSqliteDBByPwd\bin\x86\Debug\sqlite3.dll
+E:\Test\OpenSqliteDBByPwd\bin\x86\Debug\OpenSqliteDBByPwd.exe.config
+E:\Test\OpenSqliteDBByPwd\bin\x86\Debug\OpenSqliteDBByPwd.exe
+E:\Test\OpenSqliteDBByPwd\bin\x86\Debug\OpenSqliteDBByPwd.pdb
+E:\Test\OpenSqliteDBByPwd\bin\x86\Debug\EntityFramework.dll
+E:\Test\OpenSqliteDBByPwd\bin\x86\Debug\EntityFramework.SqlServer.dll
+E:\Test\OpenSqliteDBByPwd\bin\x86\Debug\System.Data.SQLite.dll
+E:\Test\OpenSqliteDBByPwd\bin\x86\Debug\System.Data.SQLite.EF6.dll
+E:\Test\OpenSqliteDBByPwd\bin\x86\Debug\System.Data.SQLite.Linq.dll
+E:\Test\OpenSqliteDBByPwd\bin\x86\Debug\EntityFramework.xml
+E:\Test\OpenSqliteDBByPwd\bin\x86\Debug\EntityFramework.SqlServer.xml
+E:\Test\OpenSqliteDBByPwd\bin\x86\Debug\System.Data.SQLite.xml
+E:\Test\OpenSqliteDBByPwd\bin\x86\Debug\System.Data.SQLite.dll.config
+E:\Test\OpenSqliteDBByPwd\obj\x86\Debug\OpenSqliteDBByPwd.csprojResolveAssemblyReference.cache
+E:\Test\OpenSqliteDBByPwd\obj\x86\Debug\OpenSqliteDBByPwd.exe
+E:\Test\OpenSqliteDBByPwd\obj\x86\Debug\OpenSqliteDBByPwd.pdb
