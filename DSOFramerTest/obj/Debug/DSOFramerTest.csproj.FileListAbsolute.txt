@@ -1,0 +1,17 @@
+E:\Test\DSOFramerTest\obj\Debug\Interop.DSOFramer.dll
+E:\Test\DSOFramerTest\obj\Debug\DSOFramerTest.csproj.ResolveComReference.cache
+E:\Test\DSOFramerTest\obj\Debug\DSOFramerTest.Properties.Resources.resources
+E:\Test\DSOFramerTest\obj\Debug\DSOFramerTest.csproj.GenerateResource.Cache
+E:\Test\DSOFramerTest\bin\Debug\DSOFramerTest.exe.config
+E:\Test\DSOFramerTest\bin\Debug\DSOFramerTest.exe
+E:\Test\DSOFramerTest\bin\Debug\DSOFramerTest.pdb
+E:\Test\DSOFramerTest\bin\Debug\System.Net.Http.dll
+E:\Test\DSOFramerTest\bin\Debug\System.Net.Http.xml
+E:\Test\DSOFramerTest\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+E:\Test\DSOFramerTest\obj\Debug\DSOFramerTest.exe
+E:\Test\DSOFramerTest\obj\Debug\DSOFramerTest.pdb
+E:\Test\DSOFramerTest\bin\Debug\冷库验证报告模板.doc
+E:\Test\DSOFramerTest\bin\Debug\Interop.DSOFramer.dll
+E:\Test\DSOFramerTest\bin\Debug\AxInterop.DSOFramer.dll
+E:\Test\DSOFramerTest\obj\Debug\AxInterop.DSOFramer.dll
+E:\Test\DSOFramerTest\obj\Debug\DSOFramerTest.Form1.resources
