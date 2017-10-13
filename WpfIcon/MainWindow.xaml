@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfIcon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfIcon"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style x:Key="FontAwesome">
+            <Setter Property="TextElement.FontFamily" Value="pack://application:,,,/#FontAwesome" />
+            <Setter Property="TextBlock.Width" Value="100"></Setter>
+            <Setter Property="TextBlock.Height" Value="100"></Setter>
+            <Setter Property="TextBlock.TextAlignment" Value="Center"></Setter>
+            <Setter Property="TextBlock.FontSize" Value="60"></Setter>
+            <Setter Property="TextBlock.Foreground" Value="Green"></Setter>
+        </Style>
+
+    </Window.Resources>
+    <Grid>
+        <WrapPanel Margin="12">
+            <TextBlock Text="(&#xf000;" Style="{DynamicResource FontAwesome}" />
+            <TextBlock Text="&#xf001;" Style="{DynamicResource FontAwesome}" />
+            <TextBlock Text="&#xf058;" Style="{DynamicResource FontAwesome}" />
+            <TextBlock Text="&#xf002;" Style="{DynamicResource FontAwesome}" />
+            <TextBlock Text="&#xf003;" Style="{DynamicResource FontAwesome}" />
+            <TextBlock Text="&#xf004;" Style="{DynamicResource FontAwesome}" />
+            <TextBlock Text="&#xf007;" Style="{DynamicResource FontAwesome}" />
+            <TextBlock Text="&#xf008;" Style="{DynamicResource FontAwesome}" />
+            <TextBlock Text="&#xf012;" Style="{DynamicResource FontAwesome}" />
+            <TextBlock Text="&#xf015;" Style="{DynamicResource FontAwesome}" />
+        </WrapPanel>
+    </Grid>
+</Window>

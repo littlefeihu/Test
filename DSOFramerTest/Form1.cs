@@ -25,17 +25,19 @@ namespace DSOFramerTest
         public Form1()
         {
             InitializeComponent();
-            this.Paint += new System.Windows.Forms.PaintEventHandler(this.FormDrag_Paint);
+            RegControl();
+            //this.Paint += new System.Windows.Forms.PaintEventHandler(this.FormDrag_Paint);
             var wordtemplate = Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, "冷库验证报告模板.doc");
             axFramerControl1.Titlebar = false;
             axFramerControl1.Menubar = false;
             axFramerControl1.Toolbars = true;
             axFramerControl1.Open(wordtemplate);
             this.SizeChanged += Form1_SizeChanged;
-            //button2.MouseDown += new MouseEventHandler(control_MouseDown);
-            //button2.MouseMove += new MouseEventHandler(control_MouseMove);
-            //button2.MouseUp += new MouseEventHandler(control_MouseUp);
+            button2.MouseDown += new MouseEventHandler(control_MouseDown);
+            button2.MouseMove += new MouseEventHandler(control_MouseMove);
+            button2.MouseUp += new MouseEventHandler(control_MouseUp);
             this.FormClosed += Form1_FormClosed;
+
         }
 
         private void Form1_SizeChanged(object sender, EventArgs e)
@@ -58,8 +60,8 @@ namespace DSOFramerTest
             {
                 isDrag = true;
                 //重新设置rect的位置，跟随鼠标移动
-                rect.Location = getPointToForm(new Point(e.Location.X - mouseDownPoint.X, e.Location.Y - mouseDownPoint.Y));
-                this.Refresh();
+                // rect.Location = getPointToForm(new Point(e.Location.X - mouseDownPoint.X, e.Location.Y - mouseDownPoint.Y));
+                // this.Refresh();
 
             }
         }
@@ -71,9 +73,11 @@ namespace DSOFramerTest
                 {
                     isDrag = false;
                     //移动control到放开鼠标的地方
-                    button2.Location = rect.Location;
+                    // button2.Location = rect.Location;
                     this.Refresh();
                 }
+
+                MessageBox.Show("X:" + e.Location.X + ",Y:" + e.Location.Y);
                 reset();
             }
         }
@@ -109,13 +113,31 @@ namespace DSOFramerTest
             axFramerControl1.Close();
 
             axFramerControl1.Dispose();
+
+            try
+            {
+
+
+                System.Diagnostics.Process[] processes = System.Diagnostics.Process.GetProcessesByName("WINWORD");
+                foreach (System.Diagnostics.Process process in processes)
+                {
+                    bool b = process.MainWindowTitle == "";
+                    if (process.MainWindowTitle == "")
+                    {
+                        process.Kill();
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("关闭Word进程出错");
+            }
         }
         //第一步：注册AxFramerControl
         public bool RegControl()
         {
             try
             {
-
                 Assembly thisExe = Assembly.GetExecutingAssembly();
                 System.IO.Stream myS = thisExe.GetManifestResourceStream("NameSpaceName.dsoframer.ocx");
 
@@ -137,7 +159,12 @@ namespace DSOFramerTest
 
             Microsoft.Office.Interop.Word.Application wordApp = wordDoc.Application;
 
-            Microsoft.Office.Interop.Word.Range r = wordDoc.Paragraphs[15].Range;
+
+            StringBuilder sb = new StringBuilder();
+            for (int i = 1; i <= wordDoc.Bookmarks.Count; i++)
+            {
+                sb.AppendLine(wordDoc.Bookmarks[i].Name);
+            }
 
             wordApp.Selection.Bookmarks.Add("ddee1");
 
@@ -148,13 +175,5 @@ namespace DSOFramerTest
 
         }
 
-        ///// <summary>
-        ///// 替换标签下
-        ///// </summary>
-        ///// <param name="_sMark"></param>
-        ///// <param name="_sReplaceText"></param>
-        ///// <param name="_IsD">替换后是否突出显示</param>
-        ///// <returns></returns>
-        //public bool WordReplace(string _sMark, string _sReplaceText, bool _IsD)
     }
 }

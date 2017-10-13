@@ -51,6 +51,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteEF6", "SqliteEF6\Sqli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSOFramerTest", "DSOFramerTest\DSOFramerTest.csproj", "{F7139BD4-E18A-4409-8B2D-2857A9E7D73A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectTest", "ReflectTest\ReflectTest.csproj", "{9DFB8D3F-64FF-4D29-A5C0-0F926A8992BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfIcon", "WpfIcon\WpfIcon.csproj", "{06CCC7DE-5EDF-48AA-9EBA-3A15C0144E01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +223,22 @@ Global
 		{F7139BD4-E18A-4409-8B2D-2857A9E7D73A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F7139BD4-E18A-4409-8B2D-2857A9E7D73A}.Release|x86.ActiveCfg = Release|x86
 		{F7139BD4-E18A-4409-8B2D-2857A9E7D73A}.Release|x86.Build.0 = Release|x86
+		{9DFB8D3F-64FF-4D29-A5C0-0F926A8992BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFB8D3F-64FF-4D29-A5C0-0F926A8992BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFB8D3F-64FF-4D29-A5C0-0F926A8992BC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9DFB8D3F-64FF-4D29-A5C0-0F926A8992BC}.Debug|x86.Build.0 = Debug|Any CPU
+		{9DFB8D3F-64FF-4D29-A5C0-0F926A8992BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFB8D3F-64FF-4D29-A5C0-0F926A8992BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFB8D3F-64FF-4D29-A5C0-0F926A8992BC}.Release|x86.ActiveCfg = Release|Any CPU
+		{9DFB8D3F-64FF-4D29-A5C0-0F926A8992BC}.Release|x86.Build.0 = Release|Any CPU
+		{06CCC7DE-5EDF-48AA-9EBA-3A15C0144E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CCC7DE-5EDF-48AA-9EBA-3A15C0144E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CCC7DE-5EDF-48AA-9EBA-3A15C0144E01}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{06CCC7DE-5EDF-48AA-9EBA-3A15C0144E01}.Debug|x86.Build.0 = Debug|Any CPU
+		{06CCC7DE-5EDF-48AA-9EBA-3A15C0144E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CCC7DE-5EDF-48AA-9EBA-3A15C0144E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06CCC7DE-5EDF-48AA-9EBA-3A15C0144E01}.Release|x86.ActiveCfg = Release|Any CPU
+		{06CCC7DE-5EDF-48AA-9EBA-3A15C0144E01}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

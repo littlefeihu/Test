@@ -16,3 +16,4 @@ E:\Test\DSOFramerTest\bin\x86\Debug\Interop.DSOFramer.dll
 E:\Test\DSOFramerTest\obj\x86\Debug\Interop.DSOFramer.dll
 E:\Test\DSOFramerTest\obj\x86\Debug\AxInterop.DSOFramer.dll
 E:\Test\DSOFramerTest\bin\x86\Debug\stdole.dll
+E:\Test\DSOFramerTest\obj\x86\Debug\DSOFramerTest.csprojResolveAssemblyReference.cache
