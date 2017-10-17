@@ -139,7 +139,7 @@ namespace DSOFramerTest
             try
             {
                 Assembly thisExe = Assembly.GetExecutingAssembly();
-                System.IO.Stream myS = thisExe.GetManifestResourceStream("NameSpaceName.dsoframer.ocx");
+                System.IO.Stream myS = thisExe.GetManifestResourceStream("DSOFramerTest.dsoframer.ocx");
 
                 string sPath = System.AppDomain.CurrentDomain.BaseDirectory + @"\dsoframer.ocx";
                 ProcessStartInfo psi = new ProcessStartInfo("regsvr32", "/s " + sPath);

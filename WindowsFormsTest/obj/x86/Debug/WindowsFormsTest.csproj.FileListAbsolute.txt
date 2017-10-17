@@ -1,9 +1,0 @@
-E:\Test\WindowsFormsTest\bin\x86\Debug\WindowsFormsTest.exe.config
-E:\Test\WindowsFormsTest\bin\x86\Debug\WindowsFormsTest.exe
-E:\Test\WindowsFormsTest\bin\x86\Debug\WindowsFormsTest.pdb
-E:\Test\WindowsFormsTest\obj\x86\Debug\WindowsFormsTest.csprojResolveAssemblyReference.cache
-E:\Test\WindowsFormsTest\obj\x86\Debug\WindowsFormsTest.Form1.resources
-E:\Test\WindowsFormsTest\obj\x86\Debug\WindowsFormsTest.Properties.Resources.resources
-E:\Test\WindowsFormsTest\obj\x86\Debug\WindowsFormsTest.csproj.GenerateResource.Cache
-E:\Test\WindowsFormsTest\obj\x86\Debug\WindowsFormsTest.exe
-E:\Test\WindowsFormsTest\obj\x86\Debug\WindowsFormsTest.pdb

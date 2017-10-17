@@ -1,6 +1,0 @@
-E:\Test\ExpressionTest\bin\x86\Debug\ExpressionTest.exe.config
-E:\Test\ExpressionTest\bin\x86\Debug\ExpressionTest.exe
-E:\Test\ExpressionTest\bin\x86\Debug\ExpressionTest.pdb
-E:\Test\ExpressionTest\obj\x86\Debug\ExpressionTest.ShallowClone.csprojResolveAssemblyReference.cache
-E:\Test\ExpressionTest\obj\x86\Debug\ExpressionTest.exe
-E:\Test\ExpressionTest\obj\x86\Debug\ExpressionTest.pdb

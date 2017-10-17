@@ -1,6 +1,0 @@
-E:\Test\LoadMenuTest\bin\x86\Debug\BugsBox.Pharmacy.AppClient.Menu_new.xml
-E:\Test\LoadMenuTest\bin\x86\Debug\LoadMenuTest.exe.config
-E:\Test\LoadMenuTest\bin\x86\Debug\LoadMenuTest.exe
-E:\Test\LoadMenuTest\bin\x86\Debug\LoadMenuTest.pdb
-E:\Test\LoadMenuTest\obj\x86\Debug\LoadMenuTest.exe
-E:\Test\LoadMenuTest\obj\x86\Debug\LoadMenuTest.pdb

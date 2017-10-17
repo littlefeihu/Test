@@ -1,6 +1,0 @@
-E:\Test\ExpressionSerialization\bin\x86\Debug\ExpressionSerialization.dll
-E:\Test\ExpressionSerialization\bin\x86\Debug\ExpressionSerialization.pdb
-E:\Test\ExpressionSerialization\bin\x86\Debug\Dynamic.dll
-E:\Test\ExpressionSerialization\obj\x86\Debug\ExpressionSerialization.csprojResolveAssemblyReference.cache
-E:\Test\ExpressionSerialization\obj\x86\Debug\ExpressionSerialization.dll
-E:\Test\ExpressionSerialization\obj\x86\Debug\ExpressionSerialization.pdb
