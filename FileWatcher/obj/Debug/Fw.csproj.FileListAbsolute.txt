@@ -1,0 +1,16 @@
+R:\Project\1\Fw\obj\Debug\ResolveAssemblyReference.cache
+R:\Project\1\Fw\obj\Debug\Fw.Properties.Resources.resources
+R:\Project\1\Fw\obj\Debug\Fw.csproj.GenerateResource.Cache
+R:\Project\1\Fw\bin\Debug\Fw.exe
+R:\Project\1\Fw\bin\Debug\Fw.pdb
+R:\Project\1\Fw\obj\Debug\Fw.exe
+R:\Project\1\Fw\obj\Debug\Fw.pdb
+R:\Project\1\Fw\obj\Debug\Fw.frm1.resources
+E:\Test\FileWatcher\bin\Debug\Fw.exe
+E:\Test\FileWatcher\bin\Debug\Fw.pdb
+E:\Test\FileWatcher\obj\Debug\Fw.csprojResolveAssemblyReference.cache
+E:\Test\FileWatcher\obj\Debug\Fw.frm1.resources
+E:\Test\FileWatcher\obj\Debug\Fw.Properties.Resources.resources
+E:\Test\FileWatcher\obj\Debug\Fw.csproj.GenerateResource.Cache
+E:\Test\FileWatcher\obj\Debug\Fw.exe
+E:\Test\FileWatcher\obj\Debug\Fw.pdb
