@@ -1,0 +1,2 @@
+E:\Test\DSOFramerTest\obj\x64\Debug\DSOFramerTest.csprojResolveAssemblyReference.cache
+E:\Test\DSOFramerTest\obj\x64\Debug\Interop.DSOFramer.dll

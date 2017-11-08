@@ -1,9 +1,0 @@
-E:\Test\WindowsFormsRelativePosition\bin\Debug\WindowsFormsRelativePosition.exe.config
-E:\Test\WindowsFormsRelativePosition\bin\Debug\WindowsFormsRelativePosition.exe
-E:\Test\WindowsFormsRelativePosition\bin\Debug\WindowsFormsRelativePosition.pdb
-E:\Test\WindowsFormsRelativePosition\obj\Debug\WindowsFormsRelativePosition.csprojResolveAssemblyReference.cache
-E:\Test\WindowsFormsRelativePosition\obj\Debug\WindowsFormsRelativePosition.Form1.resources
-E:\Test\WindowsFormsRelativePosition\obj\Debug\WindowsFormsRelativePosition.Properties.Resources.resources
-E:\Test\WindowsFormsRelativePosition\obj\Debug\WindowsFormsRelativePosition.csproj.GenerateResource.Cache
-E:\Test\WindowsFormsRelativePosition\obj\Debug\WindowsFormsRelativePosition.exe
-E:\Test\WindowsFormsRelativePosition\obj\Debug\WindowsFormsRelativePosition.pdb
