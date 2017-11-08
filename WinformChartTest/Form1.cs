@@ -124,6 +124,13 @@ namespace WinformChartTest
                         }
                         columnIndex += 1;
                     }
+
+                    var series1 = new Series();
+                    series1.ChartType = SeriesChartType.Line;
+                    series1.Name = "最大值122";
+                    chart1.Series.Add(series1);
+
+
                     chart1.SaveImage(chartSplit + ".png", ChartImageFormat.Png);
                 }
 
