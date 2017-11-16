@@ -1,0 +1,16 @@
+E:\Test\Client\bin\x64\Debug\Client.exe.config
+E:\Test\Client\bin\x64\Debug\Client.exe
+E:\Test\Client\bin\x64\Debug\Client.pdb
+E:\Test\Client\bin\x64\Debug\Common.dll
+E:\Test\Client\bin\x64\Debug\ExpressionSerialization.dll
+E:\Test\Client\bin\x64\Debug\ServiceContract.dll
+E:\Test\Client\bin\x64\Debug\EntityFramework.dll
+E:\Test\Client\bin\x64\Debug\Dynamic.dll
+E:\Test\Client\bin\x64\Debug\Common.pdb
+E:\Test\Client\bin\x64\Debug\Common.dll.config
+E:\Test\Client\bin\x64\Debug\ExpressionSerialization.pdb
+E:\Test\Client\bin\x64\Debug\ServiceContract.pdb
+E:\Test\Client\bin\x64\Debug\EntityFramework.xml
+E:\Test\Client\obj\x64\Debug\Client.csprojResolveAssemblyReference.cache
+E:\Test\Client\obj\x64\Debug\Client.exe
+E:\Test\Client\obj\x64\Debug\Client.pdb

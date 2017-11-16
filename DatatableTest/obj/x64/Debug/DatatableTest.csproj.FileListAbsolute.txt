@@ -1,0 +1,12 @@
+E:\Test\DatatableTest\bin\x64\Debug\空载.xls
+E:\Test\DatatableTest\bin\x64\Debug\DatatableTest.exe.config
+E:\Test\DatatableTest\bin\x64\Debug\DatatableTest.exe
+E:\Test\DatatableTest\bin\x64\Debug\DatatableTest.pdb
+E:\Test\DatatableTest\bin\x64\Debug\ICSharpCode.SharpZipLib.dll
+E:\Test\DatatableTest\bin\x64\Debug\NPOI.dll
+E:\Test\DatatableTest\bin\x64\Debug\NPOI.OOXML.dll
+E:\Test\DatatableTest\bin\x64\Debug\NPOI.OpenXml4Net.dll
+E:\Test\DatatableTest\bin\x64\Debug\NPOI.OpenXmlFormats.dll
+E:\Test\DatatableTest\bin\x64\Debug\NPOI.xml
+E:\Test\DatatableTest\obj\x64\Debug\DatatableTest.exe
+E:\Test\DatatableTest\obj\x64\Debug\DatatableTest.pdb

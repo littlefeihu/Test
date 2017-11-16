@@ -1,0 +1,5 @@
+E:\Test\ReflectTest\bin\x64\Debug\ReflectTest.exe.config
+E:\Test\ReflectTest\bin\x64\Debug\ReflectTest.exe
+E:\Test\ReflectTest\bin\x64\Debug\ReflectTest.pdb
+E:\Test\ReflectTest\obj\x64\Debug\ReflectTest.exe
+E:\Test\ReflectTest\obj\x64\Debug\ReflectTest.pdb

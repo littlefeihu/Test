@@ -1,0 +1,10 @@
+E:\Test\ServiceContract\bin\x64\Debug\ServiceContract.dll
+E:\Test\ServiceContract\bin\x64\Debug\ServiceContract.pdb
+E:\Test\ServiceContract\bin\x64\Debug\Common.dll
+E:\Test\ServiceContract\bin\x64\Debug\EntityFramework.dll
+E:\Test\ServiceContract\bin\x64\Debug\Common.pdb
+E:\Test\ServiceContract\bin\x64\Debug\Common.dll.config
+E:\Test\ServiceContract\bin\x64\Debug\EntityFramework.xml
+E:\Test\ServiceContract\obj\x64\Debug\ServiceContract.csprojResolveAssemblyReference.cache
+E:\Test\ServiceContract\obj\x64\Debug\ServiceContract.dll
+E:\Test\ServiceContract\obj\x64\Debug\ServiceContract.pdb

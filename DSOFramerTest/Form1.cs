@@ -166,12 +166,33 @@ namespace DSOFramerTest
                 sb.AppendLine(wordDoc.Bookmarks[i].Name);
             }
 
+
+            var htmlStr = @"<html><head></head><Body><table ><tr><th> Month </th ><th > Savings </th ></tr ><tr><td> January </td ><td>$100 </td ></tr ></table ></body></html>";
+
             wordApp.Selection.Bookmarks.Add("ddee1");
 
             wordApp.Selection.Font.Color = WdColor.wdColorRed;
-            wordApp.Selection.TypeText("ddee1");
+            wordApp.Selection.TypeText("d");
+
+            var report = new Report();
+
+            report.Document = wordDoc;
+            report.Application = wordApp;
+
+            var table = report.InsertTable("t1", 2, 2, 200);
+
+            report.InsertCell(table, 0, 2, "t1");
+            report.InsertCell(table, 0, 1, "t2");
+            report.InsertCell(table, 1, 2, "t4");
+            report.InsertCell(table, 1, 1, "t3");
+
 
             axFramerControl1.Save();
+
+
+
+
+
 
         }
 

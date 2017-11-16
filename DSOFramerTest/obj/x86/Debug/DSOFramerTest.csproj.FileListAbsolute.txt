@@ -1,1 +1,2 @@
 D:\Learning\TestSample\DSOFramerTest\obj\x86\Debug\DSOFramerTest.csprojResolveAssemblyReference.cache
+E:\Test\DSOFramerTest\bin\x86\Debug\冷库验证报告模板.doc

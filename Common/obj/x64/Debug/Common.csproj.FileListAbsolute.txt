@@ -1,0 +1,10 @@
+E:\Test\Common\bin\x64\Debug\Common.dll.config
+E:\Test\Common\bin\x64\Debug\Common.dll
+E:\Test\Common\bin\x64\Debug\Common.pdb
+E:\Test\Common\bin\x64\Debug\EntityFramework.dll
+E:\Test\Common\bin\x64\Debug\EntityFramework.SqlServer.dll
+E:\Test\Common\bin\x64\Debug\EntityFramework.xml
+E:\Test\Common\bin\x64\Debug\EntityFramework.SqlServer.xml
+E:\Test\Common\obj\x64\Debug\Common.csprojResolveAssemblyReference.cache
+E:\Test\Common\obj\x64\Debug\Common.dll
+E:\Test\Common\obj\x64\Debug\Common.pdb
